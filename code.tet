@@ -1,0 +1,187 @@
+(243, 5)
+Country             object
+Region              object
+Population           int64
+Internet Users       int64
+% of Population    float64
+dtype: object
+Country            0
+Region             1
+Population         0
+Internet Users     0
+% of Population    0
+dtype: int64
+['Country' 'Region' 'Population' 'Internet Users' '% of Population']
+             Country   Region  Population  Internet Users  % of Population
+0             _World      NaN  7920539977      5424080321            68.48
+1         Afganistan     Asia    40403518         9237489            22.86
+2            Albania   Europe     2872758         2191467            76.28
+3            Algeria   Africa    45150879        37836425            83.80
+4     American Samoa  Oceania       54995           34800            63.28
+5            Andorra   Europe       77465           73101            94.37
+6             Angola   Africa    34592611         8980670            25.96
+7           Anguilla  America       15222           13665            89.77
+8         Antarctica  Oceania        2700            2700           100.00
+9  Antigua & Barbuda  America       99251           79731            80.33
+[ 6 10  7  7 14  7  6  8 10 17  9  7  5  9  7 10  7  7 10  8  7  7  6  5
+  7  6  7 19 18  8  6 22 17  8 12  7 10  8  8  6 14 20  4  5  5 16 19  8
+  7  5 16 12 10 13  7  4  7  6 14  7  8  8 18  7  5 11 17  7  7  8  8 16
+ 13  4  7  6 13 16  5  6  7  7  5  9  6  9  7 10  4  9 19  6 13  6  5  8
+  9  7  7  5  9  4  4  7  6  5  7  5  6  6 10  5  8 12 12  6  6  9  4  6
+  7  7  7  5 13  9 10  5 10  6  8  8  4  5 12 16 10 10  9 12  6 10  7  6
+  8  9 10  7 10  7  7  5  5 11 13 11  9  5  7  4 14 15 17  6  4  8  5  9
+  6 16  8  4 11  6  8 11  5 12  7  6  6 17 11  5 10 19 12  7  6 10 12  9
+ 17  8  8 15  7 12 11  5  9 19 17 15 21 24  5  8 20  6 11  5  6 10  8  8
+ 11  4  7  5 17  7  6 12 14  6  6  7 20 14 13  7 17 10  7 18  9  7 15 14
+  5  6  8]
+Region
+Asia           4352169960
+Africa         1383491571
+America        1035524418
+Europe          837454045
+Middle East     268302801
+Oceania          43597182
+Name: Population, dtype: int64
+Region
+Asia           2933886678
+America         892946321
+Europe          750795876
+Africa          601370035
+Middle East     213889560
+Oceania          31191851
+Name: Internet Users, dtype: int64
+Region
+Europe         4757.17
+America        4442.98
+Asia           2481.89
+Africa         2209.68
+Oceania        1838.74
+Middle East    1191.89
+Name: % of Population, dtype: float64
+COUNTRY
+______________________________
+Greece              1
+Papau New Guinea    1
+Ireland             1
+Myanmar             1
+Guatemala           1
+                   ..
+Jordan              1
+Singapore           1
+Mauritius           1
+Russia              1
+Cameroon            1
+Name: Country, Length: 243, dtype: int64
+__________________________________________________
+count        243
+unique       243
+top       Greece
+freq           1
+Name: Country, dtype: object
+____________________________________________________________________________________________________
+REGION
+______________________________
+Africa         58
+America        55
+Europe         53
+Asia           35
+Oceania        27
+Middle East    14
+Name: Region, dtype: int64
+__________________________________________________
+count        242
+unique         6
+top       Africa
+freq          58
+Name: Region, dtype: object
+____________________________________________________________________________________________________
+POPULATION
+______________________________
+84219392      1
+61912         1
+7920539977    1
+2379          1
+2429926       1
+             ..
+94152930      1
+6776509       1
+7024811       1
+5490867       1
+5925416       1
+Name: Population, Length: 243, dtype: int64
+__________________________________________________
+count    2.430000e+02
+mean     6.518963e+07
+std      5.235850e+08
+min      5.960000e+02
+25%      3.321120e+05
+50%      5.302778e+06
+75%      2.025171e+07
+max      7.920540e+09
+Name: Population, dtype: float64
+____________________________________________________________________________________________________
+INTERNET USERS
+______________________________
+800         2
+15769600    1
+343400      1
+347467      1
+25589581    1
+           ..
+39100       1
+8980670     1
+4425600     1
+71200       1
+55807       1
+Name: Internet Users, Length: 242, dtype: int64
+__________________________________________________
+count    2.430000e+02
+mean     4.464264e+07
+std      3.579556e+08
+min      4.140000e+02
+25%      2.049585e+05
+50%      2.864000e+06
+75%      9.898751e+06
+max      5.424080e+09
+Name: Internet Users, dtype: float64
+____________________________________________________________________________________________________
+% OF POPULATION
+______________________________
+90.00     3
+100.00    3
+97.00     3
+92.00     3
+77.00     2
+         ..
+72.17     1
+46.64     1
+41.77     1
+86.80     1
+110.91    1
+Name: % of Population, Length: 222, dtype: int64
+__________________________________________________
+count    243.000000
+mean      69.921111
+std       27.426974
+min        0.080000
+25%       52.190000
+50%       77.940000
+75%       91.010000
+max      120.700000
+Name: % of Population, dtype: float64
+____________________________________________________________________________________________________
+          Country   Region  Population  Internet Users  % of Population  class
+0          _World      NaN  7920539977      5424080321            68.48      0
+1      Afganistan     Asia    40403518         9237489            22.86      0
+2         Albania   Europe     2872758         2191467            76.28      0
+3         Algeria   Africa    45150879        37836425            83.80      0
+4  American Samoa  Oceania       54995           34800            63.28      0
+1    224
+0     19
+Name: class, dtype: int64
+   Country  Region  Population  Internet Users  % of Population  class
+0      242       6  7920539977      5424080321            68.48      1
+1        0       2    40403518         9237489            22.86      1
+2        1       3     2872758         2191467            76.28      1
+3        2       0    45150879        37836425            83.80      1
+4        3       5       54995           34800            63.28      1
